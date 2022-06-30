@@ -23,3 +23,7 @@ print("Circumference: " + str(C))
 print("Area: " + str(Area))
 
 
+x = [True, 100, 1, 0, False]
+a = 3
+b = -2
+print(x[a] + x[b])
