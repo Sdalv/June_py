@@ -17,5 +17,5 @@ a= "python * 2"
 print(type(a))
 b= "Python" +  "2"
 print(b)
-print(False * bool(3.2))
+print(False * bool(3.2));
 print(type(int(6.5) + True + bool("python")))
