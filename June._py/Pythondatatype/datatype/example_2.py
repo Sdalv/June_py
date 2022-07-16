@@ -17,12 +17,12 @@
 # sum = add(2,3)
 # print(sum)
 
-# def highest_number():
-# 	numbers = [21, 14, 72, 148, 54]
-# 	max_number = numbers[0]
-# 	for i in range(1,len(numbers)-1):
-# 		if(numbers[i]>max_number):
-# 			max_number=numbers[i]
+def highest_number():
+	numbers = [21, 14, 72, 148, 54]
+	max_number = numbers[0]
+	for i in range(1,len(numbers)-1):
+		if(numbers[i]>max_number):
+			max_number=numbers[i]
 
 # 	return max_number
 
@@ -48,5 +48,5 @@ print(max_number(my_list))
 # 		result = i
 # 		print(type(result))
 
-	# print(i)
+# 	print(i)
 

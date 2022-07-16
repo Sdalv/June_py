@@ -1,3 +1,5 @@
+""" This is a program demonstrate the cliamte and weather """
+
 is_hot = False
 is_cold = False
 
@@ -7,5 +9,5 @@ elif is_cold:
 	print("Wear warm clothes")
 else:
 	print("It's a lovely day!")
-	
+
 print("Have a great day!")
