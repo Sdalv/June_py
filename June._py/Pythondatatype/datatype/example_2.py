@@ -17,17 +17,36 @@
 # sum = add(2,3)
 # print(sum)
 
-def highest_number():
-	numbers = [21, 14, 72, 148, 54]
-	max = numbers[0]
-	for i in range(1,len(numbers)-1):
-		if(numbers[i]>max):
-			max=numbers[i]
+# def highest_number():
+# 	numbers = [21, 14, 72, 148, 54]
+# 	max_number = numbers[0]
+# 	for i in range(1,len(numbers)-1):
+# 		if(numbers[i]>max_number):
+# 			max_number=numbers[i]
 
-	return max
+# 	return max_number
 
-print(highest_number())
+# print(highest_number())
 
 # scores = [21, 14, 72, 148, 54]
 # top_score = higest_number(scores)
 # print(top_score)
+
+my_list = [21, 14, 72, 148, 54]
+result = None
+
+def max_number(arg_list):
+	result = None
+	for i in my_list:
+		if result is None or i > result:
+			result = i
+	return result
+print(max_number(my_list))
+
+# for i in my_list:
+# 	if i > my_list[0]:
+# 		result = i
+# 		print(type(result))
+
+	# print(i)
+

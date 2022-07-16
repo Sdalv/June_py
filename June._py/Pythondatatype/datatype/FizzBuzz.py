@@ -5,7 +5,7 @@ def fizz_buzz(input):
 		return "buzz"
 	if (input % 3 ==0) and (input % 5 == 0):
 		return "fizz_buzz"
-		
+
 	return input
-	
-print(fizz_buzz(7))
+
+print(fizz_buzz(15))
